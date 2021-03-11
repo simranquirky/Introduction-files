@@ -1,0 +1,25 @@
+INTRODUCTION
+Kubernetes is an open source platform that automates many of the manual processes involved in deploying, managing and scaling containerized applications. In other words, you can cluster together group of hosts running cluster container. And, Kubernetes helps you easily and efficiently manage that cluster.
+
+
+KEY HIGHLIGHTS:
+Kubernetes will not launch applications on its own, it only helps the containers to launch the applications.
+It doesn’t use containers directly, it rather wraps the container in a box named POD. The Pod is basically the container along with some extra information or metadata , and these data is used by kubernetes itself while managing the resources.
+
+For deploying your applications, you need infrastructure that manages your application and respective resources.
+IF your application is running on container technology, then if the container fails then there is no way to get your application back. So to manage and monitor the container we need some tool. KUBERNETES is one of those tools.
+It provides all these facility and is therefore known as Container management tool.
+
+ALSO Read| Docker: Configuring Https server and setting up Python Interpreter on Docker Container
+
+THE BENEFITS OF USING KUBERNETES:
+benefits of kubernetes
+Monitoring :
+
+Kubernetes can check the avalaibility of container in every ms and whenever the container (O.S. with an application running on top of it) goes down,  it will launch the identical container to server customer requesrs. It also monitor the contianer hosts. If a container hosts goes down, it can move all the container from that node to a different node.
+
+Auto-Scaling :
+
+As per the load or the usage of resource of containers, it can autoscale to server request by launching more containers in case of high resource utilization . It can also shutdown a few containers if there is low load which is causing less resource utilization.
+
+Stable version of KUBERNETES- v1.20
